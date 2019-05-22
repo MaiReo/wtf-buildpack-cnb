@@ -6,4 +6,4 @@ COPY ./main.sh .
 
 RUN chmod 755 ./main.sh
 
-CMD [ "app/main.sh" ]
+CMD [ "/app/main.sh" ]
